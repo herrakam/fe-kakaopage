@@ -12,7 +12,7 @@ body {
 .headerAndNavWrap {
   width: 100%;
   position: fixed;
-  background: white;
+  background: #ffffff;
   z-index: 10;
 }
 header,
@@ -98,7 +98,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 0;
 }
 .navWrap > * {
   width: calc(100% / 6);
@@ -106,6 +105,9 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
+  font-size: 0;
+  padding: 30px 0 15px;
 }
 .section {
   width: 720px;
@@ -127,7 +129,7 @@ nav {
 .webtoonGenreBar {
   height: 67px;
   display: flex;
-  background: white;
+  background: #ffffff;
 }
 .webtoonGenreBar > * {
   height: 100%;
@@ -195,7 +197,7 @@ nav {
   margin: 6px 0 0;
   font-size: 28px;
   font-weight: bold;
-  color: white;
+  color: #ffffff;
 }
 .eventInfoWrap {
   height: 29px;
@@ -210,7 +212,7 @@ nav {
 }
 .eventLeft > *,
 .expectToonInfoWrap > * {
-  color: white;
+  color: #ffffff;
   font-size: 20px;
   font-weight: bold;
 }
@@ -225,7 +227,7 @@ nav {
   margin: 0 10px 0 0;
 }
 .clock {
-  color: white;
+  color: #ffffff;
   margin: 0 4px 0 0;
 }
 .eventGenreInfo {
@@ -245,7 +247,7 @@ nav {
 }
 .eventRight > * {
   font-size: 20px;
-  color: white;
+  color: #ffffff;
   font-weight: bold;
   opacity: 0.6;
 }
@@ -267,7 +269,7 @@ nav {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  background-color: #ffffff;
   box-sizing: border-box;
   padding: 20px;
 }
@@ -280,12 +282,22 @@ nav {
   background: #eee;
   font-size: 18px;
   font-weight: bold;
-  border: 1px solid white;
+  border: 1px solid #ffffff;
 }
 
 .todayUp {
   border-radius: 10px 0 0 0;
 }
+.original {
+  border-radius: 0 10px 0 0;
+}
+.straightRun {
+  border-radius: 0 0 0 10px;
+}
+.todayLanking {
+  border-radius: 0 0 10px 0;
+}
+
 .countNew {
   min-width: 24px;
   height: 24px;
@@ -304,7 +316,7 @@ nav {
 } */
 .waitForFreeWebtoon {
   height: 534px;
-  background-color: white;
+  background-color: #ffffff;
   box-sizing: border-box;
   padding: 0 20px 20px 20px;
 }
@@ -405,7 +417,7 @@ nav {
 }
 .slideAd {
   height: 140px;
-  background-color: white;
+  background-color: #ffffff;
   display: flex;
   align-items: center;
 }
@@ -423,7 +435,7 @@ nav {
 }
 .weekdayTop {
   height: 606px;
-  background-color: white;
+  background-color: #ffffff;
 }
 .weekdayTopWeekInfo {
   width: 680px;
@@ -514,7 +526,7 @@ nav {
 }
 .expectedWebtoon {
   height: 313px;
-  background: white;
+  background: #ffffff;
 }
 .expectToonContentWrap {
   height: 223px;
@@ -571,7 +583,7 @@ nav {
 }
 .genreTop {
   height: 300px;
-  background-color: white;
+  background-color: #ffffff;
 }
 .toonContentWrap {
   display: flex;
@@ -581,7 +593,7 @@ nav {
 }
 .dayRankingTop {
   height: 480px;
-  background-color: white;
+  background-color: #ffffff;
 }
 .dayRankingTopTop {
   margin: 0 0 20px 0;
@@ -639,4 +651,40 @@ nav {
 }
 .dayRankingUpdateDay {
   margin: 22px 0 0 0;
+}
+.recommendEventWrap {
+  height: 420px;
+  background-color: #ffffff;
+  margin: 11px 0 0;
+}
+.recommendEventTop {
+  margin: 0px 20px 22px 20px;
+}
+.recommendEventImage {
+  width: 678px;
+  height: 339px;
+  margin: 0.5px 0;
+  background-image: url("/FE/FE01-html/images/_진격의\ 거인_\ 정주행\ 프로모션\ \(2_14_2_28\).png");
+  background-size: cover;
+  border-radius: 6px;
+}
+.recommendEventController {
+  height: 27px;
+  display: flex;
+  position: absolute;
+  background-color: #ffffff;
+}
+.recommendEventPrevBtn,
+.recommendEventNextBtn {
+  width: 30px;
+  background-size: cover;
+}
+.recommendEventPrevBtn {
+  background-image: url("/FE/FE01-html/images/previous\ button.png");
+}
+.recommendEventNextBtn {
+  background-image: url("/FE/FE01-html/images/next\ button.png");
+}
+.recommendEventCount {
+  width: 35px;
 }

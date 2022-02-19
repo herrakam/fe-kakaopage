@@ -6278,6 +6278,6 @@ function changeSectionContents(e) {
     }
   });
   sections.insertAdjacentHTML("afterbegin", temp);
-  const change = document.querySelector("#showChange");
-  change.innerText = `${navGenre}로 내용 바뀜`;
+  //   const change = document.querySelector("#showChange");
+  //   change.innerText = `${navGenre}로 내용 바뀜`;
 }
