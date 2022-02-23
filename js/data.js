@@ -160,32 +160,6 @@ const datas = {
         `,
     ],
   ],
-  eventContents: [
-    ["홈", "/FE/FE01-html/images/소설 _ 회귀자의 증권사 생활 6타 _ 15-24.png"],
-    [
-      "요일연재",
-      "/FE/FE01-html/images/소설 _ 마법 아카데미의 육체파 천재 8타 _ 0-24.png",
-    ],
-    [
-      "웹툰",
-      "/FE/FE01-html/images/소설 _ 그 악녀가 검을 든 이유 2타 _ 10-24.png",
-    ],
-    ["소년", "/FE/FE01-html/images/웹툰 _ 롱리브더킹 1타 _ 21-24.png"],
-    [
-      "드라마",
-      "/FE/FE01-html/images/웹툰 _ 8클래스 마법사의 회귀 0타 _ 21-23.png",
-    ],
-    ["로맨스", "/FE/FE01-html/images/웹툰 _ 학사재생 9타 _ 0-24.png"],
-    [
-      "로판",
-      "/FE/FE01-html/images/웹툰 _ 남주를 주웠더니 남편이 생겨버렸다 3타 _ 15-23.png",
-    ],
-    ["액션무협", "/FE/FE01-html/images/웹툰 _ 더 라이브7타 _ 21-24.png"],
-    [
-      "BL",
-      "/FE/FE01-html/images/소설 _ 그 악녀가 검을 든 이유 2타 _ 10-24.png",
-    ],
-  ],
   sectionContents: [
     [
       "홈",
@@ -6245,13 +6219,68 @@ const datas = {
     `,
     ],
   ],
-  eventRender: {
-    home: {
-      TabGenre: "홈",
+  eventContents: [
+    {
+      genre: "홈",
+      title: "회귀자의 증권사 생활",
       imgsrc:
         "/FE/FE01-html/images/소설 _ 회귀자의 증권사 생활 6타 _ 15-24.png",
+      follow: 18.5,
     },
-  },
+    {
+      genre: "요일연재",
+      title: "마법 아카데미의 육체파 천재",
+      imgsrc:
+        "/FE/FE01-html/images/소설 _ 마법 아카데미의 육체파 천재 8타 _ 0-24.png",
+      follow: 438.5,
+    },
+    {
+      genre: "웹툰",
+      title: "그 악녀가 검을 든 이유",
+      imgsrc:
+        "/FE/FE01-html/images/소설 _ 그 악녀가 검을 든 이유 2타 _ 10-24.png",
+      follow: 24.5,
+    },
+    {
+      genre: "소년",
+      title: "롱리브더킹",
+      imgsrc: "/FE/FE01-html/images/웹툰 _ 롱리브더킹 1타 _ 21-24.png",
+      follow: 42.5,
+    },
+    {
+      genre: "드라마",
+      title: "8클래스 마법사의 회귀",
+      imgsrc:
+        "/FE/FE01-html/images/웹툰 _ 8클래스 마법사의 회귀 0타 _ 21-23.png",
+      follow: 18.8,
+    },
+    {
+      genre: "로맨스",
+      title: "학사재생",
+      imgsrc: "/FE/FE01-html/images/웹툰 _ 학사재생 9타 _ 0-24.png",
+      follow: 17.5,
+    },
+    {
+      genre: "로판",
+      title: "남주를 주웠더니 남편이 생겨버렸다",
+      imgsrc:
+        "/FE/FE01-html/images/웹툰 _ 남주를 주웠더니 남편이 생겨버렸다 3타 _ 15-23.png",
+      follow: 68.5,
+    },
+    {
+      genre: "액션무협",
+      title: "더 라이브",
+      imgsrc: "/FE/FE01-html/images/웹툰 _ 더 라이브7타 _ 21-24.png",
+      follow: 27.4,
+    },
+    {
+      genre: "BL",
+      title: "그 악녀가 검을 든 이유",
+      imgsrc:
+        "/FE/FE01-html/images/소설 _ 그 악녀가 검을 든 이유 2타 _ 10-24.png",
+      follow: 14.5,
+    },
+  ],
 };
 
 export default datas;

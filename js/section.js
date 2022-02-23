@@ -1,3 +1,6 @@
+import datas from "./data.js";
+const eventContents = datas.eventContents;
+
 function renderWebtoonGenreBar() {
   const webtoonGenreBar = `
     <div class="webtoonGenreBar" id ="webtoonGenresWrap">
